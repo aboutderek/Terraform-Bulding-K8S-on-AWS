@@ -7,6 +7,7 @@
 Create a K8S cluster on AWS EC2 instances. This environment is for the new learners of K8S to build up environments easily. This script will help you to crate the following resources
 - 1 EC2 instance as the master node
 - 2 EC2 instances as the worker nodes
+  
 We use the flannel as the CNI for the cluster. Use the `install_k8s_msr.sh` and `install_k8s_wrk.sh` to build up the K8S cluster automatically.
 
 ## Varibales
